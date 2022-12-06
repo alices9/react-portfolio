@@ -7,8 +7,8 @@ const headerStyle = {
 
 const Header = () => {
     return (
-        <header style={headerStyle}>
-            <h1>Alice Shao</h1>
+        <header>
+            <h1 style={headerStyle}>Alice Shao</h1>
             <Navigation />
         </header>
     )
